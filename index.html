@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<link href="styles.css" rel="stylesheet" type="text/css"/>
+		<title>Styling HTML5 Forms</title>
+	</head>
+	<body>
+		<header>
+			<img src="img/logo.png"/>
+		</header>
+		<form>
+			<!-- Gender -->
+			<p>You are a...</p>
+			<input id="male" name="gender" type="radio"/>
+			<label for="male">Male</label><br/>
+			<input id="female" name="gender" type="radio"/>
+			<label for="female">Female</label>
+			
+			<!-- Interests -->
+			<p>Who is interested in...</p>
+			<input id="web" type="checkbox"/>
+			<label for="web">Web development</label><br/>
+			<input id="photoshop" type="checkbox"/>
+			<label for="photoshop">Photoshop</label><br/>
+			<input id="madona" type="checkbox"/>
+			<label for="madona">Singing Madona Songs</label>
+			
+			<!-- Contact details -->
+			<fieldset>
+				<legend>Contact Info</legend>
+				<input placeholder="Email" required type="email"/>
+				<span class="tick"></span>
+				<input placeholder="Phone number" required type="telephone"/>
+				<span class="tick"></span>
+			</fieldset>
+			<!-- Preferred -->
+			<p>How would you like to be contacted?</p>
+			<select>
+				<option>By email</option>
+				<option>By telephone</option>
+			</select>
+			<input type="submit" value="Become a Ninja"/>
+		</form>
+	</body>
+</html>
