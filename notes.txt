@@ -1,0 +1,11 @@
+Vendor prefixes are browser-specific versions of some CSS properties.
+
+Examples:
+-webkit- = Chrome/Safari
+-moz- = Firefox
+
+appearance: none;
+removes the browser's default appearance/style from an element.
+
+Do not add prefixes randomly.
+Not every CSS property has a version for every browser prefix.
